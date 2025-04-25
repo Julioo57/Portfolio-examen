@@ -156,67 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
             `,
             category: "dev", // Catégorie scolaire
         },
-        {
-            id: 4,
-            title: '<h1 class="text-center font-semibold text-xl">Git & GitHub</h1> ',
-            description:  `
-            <ul class="text-center">
-                <li class="font-semibold text-gray-800">Découverte Git -<a href="assets/Bloc_3_Cyber/TP/tp-git/Tp - 4 -Jules-anduze.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-            </ul>
-            `,
-            category: "cyber",
-        },
-        {
-            id: 5,
-            title: '<h1 class="text-center font-semibold text-xl">Intrusion</h1> ',
-            description:  `
-            <ul class="text-center">
-                <li class="font-semibold text-gray-800">Kali -<a href="assets/Bloc_3_Cyber/TP/tp-kali/tp-kali-jules-anduze.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Utilman -<a href="assets/Bloc_3_Cyber/TP/tp-intrusion/TP-Intrusion-compte-rendu-anduze-jules.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Stéganographie -<a href="assets/Bloc_3_Cyber/TP/tp-stégano/Compte_Rendu_TP_Stéganographie.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-            </ul>
-            `,
-            category: "cyber",
-        },
-        {
-            id: 6,
-            title: '<h1 class="text-center font-semibold text-xl">Raid & Server</h1> ',
-            description:  `
-            <ul class="text-center">
-                <li class="font-semibold text-gray-800">Raid 5 -<a href="assets/Bloc_1_Réseau/tp bloc 1/tp raid-5/Jules_Anduze_Raid-5.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Serveur NLB -<a href="assets/Bloc_1_Réseau/tp bloc 1/Procédures/NetworkLoadBalancing_JulesAnduze.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Serveur DHCP  -<a href="assets/Bloc_1_Réseau/tp bloc 1/Procédures/dhcp_failover_jules_anduze.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li> 
-            </ul>
-            `,
-            category: "infra",
-        },
-        {
-            id: 7,
-            title: '<h1 class="text-center font-semibold text-xl">Window Server</h1> ',
-            description:  `
-            <ul class="text-center">
-                <li class="font-semibold text-gray-800">Utilisateur Glpi (Ajout) -<a href="assets/Bloc_1_Réseau/tp bloc 1/Procédures/Comment_ajouter_un_utilisateur_sur_GLPI_Jules_Anduze.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Utilisateur intinérant Glpi -<a href="assets/Bloc_1_Réseau/tp bloc 1/Procédures/Comment_créer_un_utilisateur_itinérant_jules_anduze.pdf"assets/Bloc_3_Cyber/TP/tp-intrusion/TP-Intrusion-compte-rendu-anduze-jules.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Utilisateur obligatoire Glpi -<a href="assets/Bloc_1_Réseau/tp bloc 1/Procédures/Comment_créer_un_utilisateur_obligatoire_jules_anduze.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Création d'audit -<a href="assets/Bloc_1_Réseau/tp bloc 1/Procédures/Proécdures-audit-jules-anduze.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Audit connexion -<a href="assets/Bloc_1_Réseau/tp bloc 1/Procédures/procédures_audit_connexion_jules_anduze.pdf" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-            </ul>
-            `,
-            category: "infra",
-        },
-        {
-            id: 8,
-            title: '<h1 class="text-center font-semibold text-xl">Script Powershell</h1> ',
-            description:  `
-            <ul class="text-center">
-                <li class="font-semibold text-gray-800">Jeu dynamique -<a href="assets/Bloc_1_Réseau/script/jeu.ps1" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Stockage disponible -<a href="assets/Bloc_1_Réseau/script/disk_jules_anduze.ps1" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Création de boucle -<a href="assets/Bloc_1_Réseau/script/if_else_jules_anduze.ps1" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-                <li class="font-semibold text-gray-800">Petit jeu -<a href="assets/Bloc_1_Réseau/script/petit_jeu_jules_anduze.ps1" target="_blank" class="text-gray-500 pl-3 text-right">voir</a></li>
-            </ul>
-            `,
-            category: "infra",
-        },
+        // ... Ajoute ici les autres projets...
     ];
 
     const projectContainer = document.getElementById("projectContainer");  // Conteneur où afficher les projets
@@ -251,3 +191,4 @@ document.addEventListener("DOMContentLoaded", function () {
     // Afficher les projets par défaut au chargement
     displayProjects("dev"); // Catégorie par défaut
 });
+// === Fin du script ===
