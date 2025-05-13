@@ -128,10 +128,6 @@
                         </a>
                     </div>
                 </div>
-                <!-- Colonne d'image de l'utilisateur -->
-                <div>
-                    <img src="assets/img/moi.jpg" alt="moi" class="md:size-96 size-72 rounded-full " />
-                </div>
             </div>
         </div>
     </div>
@@ -307,6 +303,76 @@
             <!-- Les articles seront injectés ici dynamiquement -->
         </div>
     </div>
+    
+<div class="max-w-6xl mx-auto px-6 pt-5">
+    <h2 class="text-2xl font-bold text-gray-800 text-center mb-12">L’actu continue sur les réseaux sociaux !</h2>
+    
+    <!-- Conteneur à trois colonnes -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <!-- YOUTUBE -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+        <h3 class="text-3xl font-bold text-gray-700 mb-6 flex items-center gap-3">
+            <i class="fab fa-youtube text-red-600 text-4xl"></i>
+            - Youtube
+        </h3>
+        <div>
+            <p class="text-gray-700 font-semibold mb-2">Les incontournables de la Tech :</p>
+            <ul class="list-disc list-inside text-gray-600 space-y-1">
+                <li><a href="https://www.youtube.com/@Grafikart" target="_blank" class="text-blue-600 hover:underline">Grafikart</a> – Chaine de développement</li>
+                <li><a href="https://www.youtube.com/@Micode" target="_blank" class="text-blue-600 hover:underline">Micode</a> – Chaine sur l'info</li>
+                <li><a href="https://www.youtube.com/@Underscore_" target="_blank" class="text-blue-600 hover:underline">Underscore_</a> – Podcast sur la Tech</li>
+                <li><a href="https://www.youtube.com/@BenjaminCode" target="_blank" class="text-blue-600 hover:underline">BenjaminCode</a> – Chaine de développement</li>
+            </ul>
+        </div>
+    </div>
+
+        <!-- TWITTER -->
+       <div class="bg-white p-8 rounded-2xl shadow-lg">
+            <h3 class="text-3xl font-bold text-gray-700 mb-6 flex items-center gap-3">
+                <i class="fab fa-twitter text-sky-500 text-3xl"></i>
+            - X (Twitter)
+            </h3>
+            <div>
+                <p class="text-gray-700 font-semibold mb-2">Les meilleures de l'informations :</p>
+                <ul class="list-disc list-inside text-gray-600 space-y-1">
+                    <li><a href="https://x.com/ANSSI_FR" target="_blank" class="text-blue-600 hover:underline">@ANSSI_FR</a> – Agence nationale de la sécurité</li>
+                    <li><a href="https://x.com/01net" target="_blank" class="text-blue-600 hover:underline">@01net</a> – Actu Tech </li>
+                    <li><a href="https://x.com/verge" target="_blank" class="text-blue-600 hover:underline">@verge</a> – Actu Tech</li>
+                    <li><a href="https://x.com/CerfiaFR" target="_blank" class="text-blue-600 hover:underline">@CerfiaFR</a> – Actu en tout genre</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </section>
 <!-- Section de contact -->
 <section class="bg-blue-50 dark:bg-slate-800" id="contact">
